@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_marginBottom="8dp"
+    card_view:cardCornerRadius="4dp">
+
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="100">
+
+                        <TextView
+                            android:id="@+id/stockName"
+                            android:layout_weight="33"
+                            android:padding="20dp"
+                            android:textSize="13sp"
+                            android:text="Stock Name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:id="@+id/stockDetail2"
+                            android:layout_weight="33"
+                            android:padding="20dp"
+                            android:text="Stock Detail 2"
+                            android:textSize="13sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:id="@+id/stockDetail3"
+                            android:padding="20dp"
+                            android:textColor="#4dff4d"
+                            android:text="Stock Detail 3"
+                            android:textSize="13sp"
+                            android:layout_weight="33"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                </LinearLayout>
+        </RelativeLayout>
+</android.support.v7.widget.CardView>
